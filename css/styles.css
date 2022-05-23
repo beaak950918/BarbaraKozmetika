@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	 background-image: url("../images/hatterkep.jpg");
 	 background-repeat: no-repeat;
@@ -29,6 +33,9 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 .topnav a {
@@ -93,4 +100,91 @@ body {
     display: block;
     text-align: left;
   }
+}
+
+section {
+  margin-left: 40px;
+  padding: 5em 2em;
+}
+
+h1{
+  padding-left:16px;
+  font-family: textFont;
+  font-size: xx-large;
+}
+
+h4 {
+  padding-left:16px;
+  font-family: textFont;
+  font-size: x-large;
+}
+
+.contacts div {
+  padding-left:16px;
+  font-family: textFont;
+  font-size: large;
+}
+
+.aboutme div {
+  padding-left:16px;
+  font-family: textFont;
+  font-size: large;
+}
+
+.gallery div {
+  padding-left:16px;
+  font-family: textFont;
+  font-size: large;
+}
+
+.services div {
+  padding-left:16px;
+  font-family: textFont;
+  font-size: large;
+}
+
+/* Map: */
+.map {
+  background-color: var(--clr-dark);
+  text-align: center;
+  padding: 2em 2em;
+}
+
+.section__title--map {
+  color: var(--clr-accent);
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.map-responsive iframe {
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+  .left-side,
+  .right-side {
+      height: 100vh;
+  }
+}
+
+#introduction
+,#gallery
+,#aboutme
+,#services
+,#contacts {
+    scroll-margin-top: 100px;
 }
