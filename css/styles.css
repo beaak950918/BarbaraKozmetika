@@ -104,6 +104,7 @@ body {
 
 section {
   margin-left: 40px;
+  margin-right: 40px;
   padding: 5em 2em;
 }
 
@@ -143,6 +144,12 @@ h4 {
   font-size: large;
 }
 
+.prices div {
+  padding-left:16px;
+  font-family: textFont;
+  font-size: large;
+}
+
 /* Map: */
 .map {
   background-color: var(--clr-dark);
@@ -165,6 +172,7 @@ h4 {
   position: relative;
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 5%;
 }
 
 .map-responsive iframe {
