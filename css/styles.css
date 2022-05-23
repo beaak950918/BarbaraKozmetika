@@ -1,5 +1,5 @@
 body {
-	 background-image: url("hatterkep.jpg");
+	 background-image: url("../hatterkep.jpg");
 	 background-repeat: no-repeat;
 	 background-attachment: fixed;
 	 background-size: cover;
@@ -8,12 +8,12 @@ body {
 
 @font-face {
   font-family: myFirstFont;
-  src: url(Carattere/Carattere-Regular.ttf);
+  src: url(../Carattere/Carattere-Regular.ttf);
 }
 
 @font-face {
   font-family: textFont;
-  src: url('Glass_Antiqua/GlassAntiqua-Regular.ttf');
+  src: url('../Glass_Antiqua/GlassAntiqua-Regular.ttf');
 }
 
 .logo {
